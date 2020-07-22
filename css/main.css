@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/*
+
+   Author: Aiden Gorham
+   Date: 7/22/2020
+
+   Filename: main.css
+
+   This file contains the css design code used across
+   all pages on my website
+
+*/
+
+body {
+   margin: 0px;
+}
+
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(87, 87, 87);
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 0.5rem;
+  font-size: 12px;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+}
