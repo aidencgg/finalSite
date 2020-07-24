@@ -11,3 +11,76 @@
    fonts page of my website.
 
 */
+
+body {
+  -webkit-background-size: auto;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-image: url("../images/fonts.jpeg");
+}
+
+.vertical-menu {
+  width: 100%; /* Set a width if you like */
+}
+
+.vertical-menu p {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu p:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu p.active_helvetica {
+  font-size: 20px;
+  font-family: Helvetica;
+  background-color: transparent; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+.vertical-menu p.active_mono {
+  font-family: monospace;
+  font-size: 20px;
+  background-color: transparent; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+.vertical-menu p.active_comic {
+  font-family: "Comic Sans", cursive;
+  font-size: 20px;
+  background-color: transparent; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+.vertical-menu p.active_goudy {
+  font-family: fangsong;
+  font-size: 20px;
+  background-color: transparent; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+.vertical-menu p.active_math {
+  font-family: "Times New Roman", serif;
+  font-size: 20px;
+  background-color: transparent; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+.vertical-menu .a_hel .hel_button {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: bold;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
