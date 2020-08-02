@@ -11,3 +11,152 @@
    deliverables page of my website.
 
 */
+
+body {
+  -webkit-background-size: auto;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-image: url("../images/deliverables_image.jpg");
+}
+
+body > h1 {
+  font-family: helvetica;
+  color: white;
+  padding-left: 20px;
+}
+
+body > .vertical-menu >  .square1 {
+  background-image: url("../images/plastic.jpg");
+  background-size: cover;
+  background-color: black;
+  margin-left: 50px;
+  margin-top: 50px;
+  align-self: left;
+  width: 150px;
+  height: 150px;
+  border: 0 solid;
+
+  -webkit-transition: box-shadow 0.5s ease;
+  -moz-transition: box-shadow 0.5s ease;
+  -o-transition: box-shadow 0.5s ease;
+  -ms-transition: box-shadow 0.5s ease;
+  transition: box-shadow 0.5s ease;
+}
+
+body > .vertical-menu > .square1_h1 {
+  color: white;
+  font-family: helvetica;
+  font-size: 20px;
+  margin-left: 230px;
+    margin-top: -90px;
+    height: 100%;
+}
+
+body > .vertical-menu >  .square1:hover {
+  background-color: transparent;
+  -webkit-box-shadow: 0px 0px 7px;
+  box-shadow: 0px 0px 7px;
+  cursor: pointer;
+}
+
+body > .vertical-menu >  .square2 {
+  background-image: url("../images/paint.jpg");
+  background-size: cover;
+  background-color: black;
+  margin-left: 50px;
+  margin-top: 90px;
+  align-self: left;
+  width: 150px;
+  height: 150px;
+  border: 0 solid;
+
+  -webkit-transition: box-shadow 0.5s ease;
+  -moz-transition: box-shadow 0.5s ease;
+  -o-transition: box-shadow 0.5s ease;
+  -ms-transition: box-shadow 0.5s ease;
+  transition: box-shadow 0.5s ease;
+}
+
+body > .vertical-menu > .square2_h1 {
+  color: white;
+  font-family: helvetica;
+  font-size: 20px;
+  margin-left: 230px;
+    margin-top: -90px;
+    height: 100%;
+}
+
+body > .vertical-menu >  .square2:hover {
+  background-color: transparent;
+  -webkit-box-shadow: 0px 0px 7px;
+  box-shadow: 0px 0px 7px;
+  cursor: pointer;
+}
+
+body > .vertical-menu >  .square3 {
+  background-image: url("../images/asl.jpeg");
+  background-size: cover;
+  background-color: black;
+  margin-left: 50px;
+  margin-top: 90px;
+  align-self: left;
+  width: 150px;
+  height: 150px;
+  border: 0 solid;
+
+  -webkit-transition: box-shadow 0.5s ease;
+  -moz-transition: box-shadow 0.5s ease;
+  -o-transition: box-shadow 0.5s ease;
+  -ms-transition: box-shadow 0.5s ease;
+  transition: box-shadow 0.5s ease;
+}
+
+body > .vertical-menu > .square3_h1 {
+  color: white;
+  font-family: helvetica;
+  font-size: 20px;
+  margin-left: 230px;
+    margin-top: -90px;
+    height: 100%;
+}
+
+body > .vertical-menu >  .square3:hover {
+  background-color: transparent;
+  -webkit-box-shadow: 0px 0px 7px;
+  box-shadow: 0px 0px 7px;
+  cursor: pointer;
+}
+
+body > .vertical-menu >  .square4 {
+  background-image: url("../images/cd.jpg");
+  background-size: cover;
+  background-color: black;
+  margin-left: 50px;
+  margin-top: 90px;
+  align-self: left;
+  width: 150px;
+  height: 150px;
+  border: 0 solid;
+
+  -webkit-transition: box-shadow 0.5s ease;
+  -moz-transition: box-shadow 0.5s ease;
+  -o-transition: box-shadow 0.5s ease;
+  -ms-transition: box-shadow 0.5s ease;
+  transition: box-shadow 0.5s ease;
+}
+
+body > .vertical-menu > .square4_h1 {
+  color: white;
+  font-family: helvetica;
+  font-size: 20px;
+  margin-left: 230px;
+    margin-top: -90px;
+    height: 100%;
+}
+
+body > .vertical-menu >  .square4:hover {
+  background-color: transparent;
+  -webkit-box-shadow: 0px 0px 7px;
+  box-shadow: 0px 0px 7px;
+  cursor: pointer;
+}

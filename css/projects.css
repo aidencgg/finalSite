@@ -16,28 +16,40 @@ body {
   -webkit-background-size: auto;
   background-size: auto;
   background-repeat: no-repeat;
-  background-image: url("../images/projects.jpeg");
+  background-image: url("../images/projects_image.jpg");
 }
 
-body > button {
+body > div {
+  width: 900px;
+  margin: 20vh auto;
+  overflow: auto;
+  background-color: transparent;
+}
+
+body > h1 {
+  font-family: helvetica;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #333;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border: none;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: bold;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.5s;
-  cursor: pointer;
+  padding-left: 20px;
 }
 
-body > button:hover {
-  background-color: rgb(87, 87, 87);
+body > div > ul {
+  list-style-type: none;
+  background-color: transparent;
+  transition-duration: 0.5s;
+}
+
+li img {
+  border: 0 solid;
+
+  -webkit-transition: box-shadow 0.5s ease;
+  -moz-transition: box-shadow 0.5s ease;
+  -o-transition: box-shadow 0.5s ease;
+  -ms-transition: box-shadow 0.5s ease;
+  transition: box-shadow 0.5s ease;
+}
+
+li img:hover {
+  background-color: transparent;
+  -webkit-box-shadow: 0px 0px 7px;
+  box-shadow: 0px 0px 7px;
 }

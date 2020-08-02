@@ -19,6 +19,14 @@ body {
   background-image: url("../images/fonts.jpeg");
 }
 
+body > h1 {
+  font-family: helvetica;
+  color: white;
+  padding-left: 20px;
+}
+
+
+
 .vertical-menu {
   width: 100%; /* Set a width if you like */
 }
